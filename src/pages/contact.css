@@ -1,0 +1,232 @@
+.contact-us{
+    background-color: rgb(255, 255, 255);
+    margin-top: -150px !important;
+
+}
+.contact-us .container .row{
+    background: #fff;
+    border-radius: 25px;
+    padding: 50px;
+    border: 1px solid #fff ;
+    margin-left: 90px;
+    margin-right: 90px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    position: relative;
+    z-index: 4;
+  display: flex;
+   
+ }
+ @media (max-width: 992px) {
+    .contact-us .container .row{
+    display: block;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    }
+    .contact-us .container .row .r,.r1{
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 55px;
+    }
+    .contact-us .container .row .r1{
+        padding-right: 10px;
+    }
+ }
+ @media (max-width: 868px){
+    .contact-us .container .row{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+ }
+ .contact-us .r{
+    padding-right: 60px;
+ }
+ .contact-us  form{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+        
+    
+}
+.contact-us  form .form-control{
+    border: none;
+}
+form input,
+form textarea,
+form select{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #777;
+    padding: 25px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    color: #333;
+    font-size: 17px;
+    outline: none;
+
+}
+form select{
+    height: 50px;
+    border-radius: 8px;
+}
+form textarea{
+    height: 150px;
+}
+form input:hover{
+    border: 1px solid var(--main-color);
+    transition: .2s ease-in-out;
+}
+form button{
+    background-color: var(--orange-color) !important;
+    height: 60px;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 8px !important;
+    margin-top: 20px;
+    transition: .2s ease;
+    width: 100%;
+    max-width: 100%;
+    color: #fff;
+    font-size: 18px;
+    
+    /* margin-left: 22px; */
+
+}
+form button:hover{
+    background-color: transparent !important;
+    color: var(--orange-color);
+    transition: .3s ease-in-out;
+}
+.side{
+    background: url(../images/side.jpg) center;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+   color: #fff;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.side .overlay{
+    /* background-color: #5f63ccad; */
+    padding-left: 45px;
+    padding-right: 180px;
+    padding-top: 60px;
+    border-radius: 8px;
+    background-color: var(--btn-color);
+    opacity: .8;
+}
+@media (max-width: 868px){
+    .side .overlay{
+        padding-left: 4.5px;
+        padding-right: 18px;
+        padding-top: 6px;
+    }
+}
+.side .icon-box {
+    padding-top: 20px;
+}
+.side .icon-box svg{
+padding-right: 10px;
+}
+.side .icon-box li{
+    font-size: 20px;
+}
+.side .icon-box p{
+    font-size: 19px;
+    
+}
+.side .social-media{
+display: flex;
+justify-content: start;
+padding-bottom:60px;
+padding-left: 0 !important;
+}
+.side .social-media li a svg{
+    background-color: #fff;
+    color: var(--btn-color);
+    border-radius: 28%;
+    padding: 15px;
+}
+.side .social-media li a {
+    padding: 10px;
+    text-align: center;
+    
+}
+.side .social-media li a svg:hover{
+    background-color: var(--orange-color);
+    color: #fff;
+    transition: .5s ease;
+}
+/* start area */
+.area .container .row{
+    margin-right: 90px;
+    margin-left: 90px;
+}
+.area .col{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.area  .section-area{
+    max-width: 100%;
+    text-align: start;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+   
+}
+.area  .section-area img{
+    height: 50px;
+    max-width: 100%;
+    vertical-align: middle;
+    width: auto;
+    
+}
+.area  .section-area h2{
+    color:#1f2278;
+    padding-top: 25px;
+    font-size: 29px;
+}
+.area  .box{
+border: 1px solid #e2c4ff !important;
+border-radius: 8px;
+box-shadow: 0 5px 30px 0 rgba(31, 34, 120, .08);
+overflow: hidden;
+padding: 45px 35px 35px;
+z-index: 1;
+
+}
+.area  .box2{
+    border: 1px solid #ffbdbc !important;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px 0 rgba(31, 34, 120, .08);
+    overflow: hidden;
+    padding: 45px 35px 35px;
+    z-index: 1;
+
+}
+.area  .box3{
+   border: 1px solid #a4fcc4 !important;  
+   border-radius: 8px;
+   box-shadow: 0 5px 30px 0 rgba(31, 34, 120, .08);
+   overflow: hidden;
+   padding: 45px 35px 35px;
+   z-index: 1;
+
+}
+@media (max-width: 992px){
+    .area .container .row {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
+@media (max-width: 868px){
+    .area .container .row {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .area .container .row .col{
+        padding-top: 20px;
+    }
+}

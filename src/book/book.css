@@ -1,0 +1,131 @@
+.book .container{
+  background-color: #f5f5fc;
+  border-radius: 40px;
+  position: relative;
+  z-index: 1;
+  align-items: center !important; 
+  height: 900px ;
+  display: flex;
+  justify-content: center !important;
+ 
+}
+@media only screen and (max-width: 767px) {
+    .book .container{
+        height: auto;
+    }
+}
+.book .row {
+    background: url(../images/bag.png) no-repeat;
+    background-size: cover;
+    background-position: 20px 140px;
+    display: flex;
+    align-items: center !important;
+justify-content: center;
+}
+
+
+.book .a1 img{
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+/* start img */
+.book .a1{
+    
+    position: relative;
+    
+}
+.book .a1 .book-img{
+    margin-left: 70px;
+    position: relative;
+    width: 730px;
+}
+@media only screen and (max-width: 1380px) {
+    .book .a1 .book-img {
+        margin-left: 0;
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .book .a1 .book-img {
+        padding-left: 0;
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .book .a1 .book-img{
+        margin: 30px auto 0;
+        width: 320px;
+    }
+}
+.book .a1 .book-img  .img img{
+    position: absolute;
+}
+
+.book .a1 .book-img .img3{
+    -webkit-animation: mover5 2s infinite alternate;
+    animation: mover5 2s infinite alternate;
+    bottom: 16px;
+    height: 530px;
+    right: 16px;
+}
+@keyframes mover5{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .book .a1 .book-img .img3 {
+        height: 400px;
+        right: 20px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .book .a1 .book-img .img3 {
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .book .a1 .book-img .img3 {
+        height: 180px;
+    }
+}
+.book .a1 .book-img .img2{
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+    right: 70px;
+    top: 30px;
+}
+@keyframes mover{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .book .a1 .book-img .img2 {
+        right: 80px;
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .book .a1 .book-img .img2 {
+        right: 70px;
+        top: 60px;
+        width: 70px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .book .a1 .book-img .img2 {
+        right: 30px;
+        top: 40px;
+        width: 60px;
+    }
+}

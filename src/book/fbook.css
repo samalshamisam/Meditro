@@ -1,0 +1,122 @@
+.book  form{
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+        
+    
+}
+.book form .form-control{
+    border: none;
+}
+.book .sa {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    padding: 40px 35px;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 1600px){ .book .sa{    margin-left: 50px;}}
+@media only screen and (max-width: 1380px) {
+    .book .sa  {
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .book .sa {
+        border-radius: 20px;
+        margin-left: 20px;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .book .sa {
+        border-radius: 20px;
+        margin-left: 10px;
+        padding: 20px;
+    }
+}
+.book .sa h2{
+    color: #1f2278;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+}
+form input,
+form textarea,
+form select{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #777;
+    padding: 25px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    color: #333;
+    font-size: 17px;
+    outline: none;
+
+}
+form select{
+    height: 50px;
+    border-radius: 8px;
+}
+form textarea{
+    height: 150px;
+}
+form input:hover{
+    border: 1px solid var(--main-color);
+    transition: .2s ease-in-out;
+}
+form button{
+    background-color: var(--orange-color) !important;
+    height: 60px;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 8px !important;
+    margin-top: 20px;
+    transition: .2s ease;
+    width: 100%;
+    max-width: 100%;
+    color: #fff;
+    font-size: 18px;
+    
+    /* margin-left: 22px; */
+
+}
+form button:hover{
+    background-color: transparent !important;
+    color: var(--orange-color);
+    transition: .3s ease-in-out;
+}
+/* .book .sa{
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    padding: 40px 35px;
+    position: relative;
+    text-align: center;
+   
+    width: 450px;
+    margin-left: 50px;
+} */
+.book .sa::after{
+    border: 2px solid #565acf;
+    border-radius: 40px;
+    content: "";
+    height: 100%;
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    z-index: -1;
+}
+/* @media only screen and (max-width: 375px) {
+    .book .sa{
+            width: 80%;
+        margin-left: 40px;}
+    } */

@@ -1,0 +1,172 @@
+.how{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.how .container {
+    text-align: center;
+}
+.how .container h2{
+    background-position: 50%;
+    background-repeat: repeat;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 3px 15px; 
+    color: var(--orange-color);
+}
+.how .container h1{
+    color: #1f2278;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.3;
+    font-weight: 700;
+}
+.how .row{
+    /* padding-left: 90px;
+    padding-right: 90px; */
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.how .row .how1{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    overflow: hidden;
+    padding: 40px 30px;
+    position: relative;
+    transition: all .5s;
+    z-index: 1;
+    margin-top: 30px;
+}
+.how .row .how2{
+    background-color: var(--orange-color);
+    border-radius: 20px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    overflow: hidden;
+    padding: 40px 30px;
+    position: relative;
+    transition: all .5s;
+    z-index: 1;
+    transition: all .5s;
+    margin-top: 0px;
+}
+.how .row .how3{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 60px 0 rgba(31, 34, 120, .1);
+    overflow: hidden;
+    padding: 40px 30px;
+    position: relative;
+    transition: all .5s;
+    z-index: 1;
+    margin-top: 30px;
+}
+.how .row .number .text {
+    text-align: center;
+    align-items: center;
+}
+.how .row .number span{
+    -webkit-text-stroke: 2px #f17732;
+        color: transparent;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 30px;
+    text-shadow: 0 10px 0 #ffe3d3;
+    transition: all .5s;
+}
+.how .row  .how-col .how2 h5{
+    color: rgb(255 255 255);
+}
+.how .row .number h5{
+    color:rgb(241 119 50);
+}
+.how .row .number p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 30px;
+    color:#535353;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* color: rgb(255 255 255); */
+}
+.how .row .number a{
+    background-color: #e1e2f6;
+    border: 2px solid #e1e2f6;
+    color: #565acf;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 15px 30px;
+    transition: all .5s;
+    width: 150px;
+    height: 50px;
+    
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.how .row .number a span{
+    
+    color: var(--btn-color);
+    width: 40px;
+    border-radius: 4px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15px;
+}
+.how .row .number svg{
+    background-color: #fff;
+    border-radius: inherit;
+    color:#565acf;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: -12px -27px 8px 15px;
+    width: 40px;
+}
+.how-col .how2 .text p{
+color: #eee !important;
+}
+.how .row .number::after{
+       background-color: #f17732;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    transition: all .5s;
+    width: 100%;
+    z-index: -1;
+}
+.how .row .number:hover::after{
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    bottom: 0;
+    height: 100%;
+    top: auto;
+    transform-origin: bottom;
+    -moz-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    -webkit-transform-origin: bottom;
+    -o-transform-origin: bottom;
+}
+@media  (min-width:575px) {
+    .col-sm-5{
+        margin-top: 20px !important;
+    }
+    .how-col {
+        margin-bottom: -20px !important;
+    }
+}
